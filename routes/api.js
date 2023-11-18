@@ -128,7 +128,7 @@ router.post('/orders', async (req, res) => {
           theme: {
             color: '#F37254',
           },
-          callback_url: "https://radiant-rides.vercel.app/#/success", // Update the server-side route
+          callback_url: "https://radiantrides-backend.onrender.com/api/success", // Update the server-side route
  // Redirect to the success page
         },
       });
@@ -142,7 +142,7 @@ router.post('/orders', async (req, res) => {
 
 router.post('/success', (req, res) => {
   //res.json({ message: 'Payment successful! Redirect to success page.' });
-  res.redirect('/#/success'); 
+  res.redirect('https://radiant-rides.vercel.app/#/success'); 
 });
 
 
