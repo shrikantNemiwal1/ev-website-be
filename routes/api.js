@@ -128,7 +128,7 @@ router.post('/orders', async (req, res) => {
           theme: {
             color: '#F37254',
           },
-          callback_url: "https://radiant-rides.vercel.app/api/success", // Update the server-side route
+          callback_url: "https://radiant-rides.vercel.app/#/success", // Update the server-side route
  // Redirect to the success page
         },
       });
