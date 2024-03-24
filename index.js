@@ -8,7 +8,7 @@ const userRoutes = require('./routes/users');
 
 app.use(cors());
 
-mongoose.connect('mongodb+srv://bikes:12345@bikes.6dagdtd.mongodb.net/bikes', {
+mongoose.connect('mongodb+srv://ev-vehicle:ev-vehicle@ev-vehicle.zswyeos.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })

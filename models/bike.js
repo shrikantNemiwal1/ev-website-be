@@ -14,7 +14,7 @@ const bikeSchema = new mongoose.Schema({
   FuelTankCapacity: String,
   SeatHeight : Number,
   image1: String,
-  image2: String,
+  image2: String, 
   image3: String,
 }, {
   collection: 'bikeDetails' 
